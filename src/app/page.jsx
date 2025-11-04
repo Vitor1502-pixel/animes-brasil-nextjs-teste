@@ -15,11 +15,11 @@ export default function Home() {
             Explore, descubra e compartilhe seus animes favoritos.
           </Subtitle>
 
-          {/* <ButtonWrapper>
+          <ButtonWrapper>
             <CadastrarButton href="/animes/novo">
               + Cadastrar Anime
             </CadastrarButton>
-          </ButtonWrapper> */}
+          </ButtonWrapper>
         </Content>
       </Container>
     </>

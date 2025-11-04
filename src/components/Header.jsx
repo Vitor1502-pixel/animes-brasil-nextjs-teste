@@ -13,7 +13,7 @@ export default function Header() {
     <>
       <HeaderContainer>
         <HeaderContent>
-          <Logo href="/">ADS Animes</Logo>
+          <Logo href="/">Testando aula Vercel Animes</Logo>
 
           <Nav>
             <NavLink href="/">Home</NavLink>
