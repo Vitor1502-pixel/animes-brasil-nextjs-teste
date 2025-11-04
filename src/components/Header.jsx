@@ -13,7 +13,7 @@ export default function Header() {
     <>
       <HeaderContainer>
         <HeaderContent>
-          <Logo href="/">Testando aula Vercel Animes</Logo>
+          <Logo href="/">ONE PUNCH! Animes</Logo>
 
           <Nav>
             <NavLink href="/">Home</NavLink>
@@ -34,8 +34,8 @@ export default function Header() {
 
 // 💅 Estilos do Header
 const HeaderContainer = styled.header`
-  background-color: #1e293b;
-  color: white;
+  background-color: #db0c0cff;
+  color:white;
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
@@ -59,7 +59,7 @@ const HeaderContent = styled.div`
 const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 700;
-  color: #10b981;
+  color: #ecbf2bff;
   text-decoration: none;
 
   &:hover {
@@ -81,7 +81,7 @@ const NavLink = styled(Link)`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #2e861c6c;
   }
 `;
 
@@ -93,6 +93,6 @@ const LoginButton = styled.button`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #914d4dff;
   }
 `;
